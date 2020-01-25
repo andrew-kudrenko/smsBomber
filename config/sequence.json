@@ -1,0 +1,214 @@
+[
+  {
+    "url": "https://youla.ru/",
+    "delay": 2000,
+    "attempt": 3,
+    "queue": {
+      "main": [
+        {"selector": ".hzpgPl", "action": "click"},
+        {"selector": "button.sc-hmzhuo:nth-child(5)", "action": "click"},
+        {"selector": "input[name=\"phoneNumber\"]", "action": "type"},
+        {"selector": "button.sc-hmzhuo:nth-child(3)", "action": "click"}
+      ],
+      "loop": [
+        {"selector": ".sc-esjQYD", "action": "click"}
+      ]
+    }
+  },
+
+  {
+    "url": "https://tinder.com/",
+    "delay": 2000,
+    "attempt": 2,
+    "queue": {
+      "main": [
+        {"selector": "div.My\\(10px\\):nth-child(1) > button:nth-child(1) > span:nth-child(1)", "action": "click"},
+        {"selector": "input.Fz\\(\\$m\\)", "action": "type"},
+        {"selector": "button.button:nth-child(5) > span:nth-child(1)", "action": "click"}        
+      ],
+      "loop": [
+        {"selector": "button.D\\(ib\\)", "action": "click"}
+      ]
+    }
+  },
+
+  {
+    "url": "https://dodopizza.ru/moscow",
+    "delay": 0,
+    "attempt": 0,
+    "queue": {
+      "main": [
+        {"selector": ".header__user-profile-button", "action": "click"},
+        {"selector": "#phn-input", "action": "type"},
+        {"selector": ".login-popup-button", "action": "click"}
+      ],
+      "loop": null
+    }
+  },
+
+  {
+    "url": "https://dostaevsky.ru/",
+    "delay": 1000,
+    "attempt": 1,
+    "queue": {
+      "main": [
+        {"selector": ".authorization-button__icon", "action": "click"},
+        {"selector": "form.authorization__container:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > input:nth-child(1)", "action": "click"},  
+        {"selector": "form.authorization__container:nth-child(1) > div:nth-child(3) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > input:nth-child(1)", "action": "type", "delay": 50},
+        {"selector": "form.authorization__container:nth-child(1) > div:nth-child(3) > div:nth-child(5) > button:nth-child(1)", "action": "click"}        
+      ],
+      "loop": [
+        {"selector": "form.authorization__container:nth-child(3) > div:nth-child(2) > div:nth-child(4) > button:nth-child(1)", "action": "click"}
+      ]
+    }
+  },
+
+  {
+    "url": "https://auto.ru/",
+    "delay": 1000,
+    "attempt": 1,
+    "queue": {
+      "main": [
+        {"selector": "div.HeaderNavigation:nth-child(4) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1)", "action": "click"},
+        {"selector": ".TextInput__control", "action": "type"},
+        {"selector": ".Button__text", "action": "click"}
+      ],
+      "loop": [
+        {"selector": "span.AuthForm__link", "action": "click"}
+      ]
+    }
+  },
+
+  {
+    "url": "https://www.karusel.ru/",
+    "delay": 0,
+    "attempt": 0,
+    "queue": {
+      "main": [
+        {"selector": ".m-header__link", "action": "click"},
+        {"selector": ".txt-field", "action": "type"},  
+        {"selector": ".fake-checkbox", "action": "click"},
+        {"selector": ".auth-button", "action": "click"}        
+      ],
+      "loop": null
+    }
+  },
+
+  {
+    "url": "https://www.ozon.ru/",
+    "delay": 0,
+    "attempt": 0,
+    "queue": {
+      "main": [
+        {"selector": "div.ui-a3:nth-child(1)", "action": "click"},
+        {"selector": ".ui-d0", "action": "type"},  
+        {"selector": ".ui-o7 > div:nth-child(1)", "action": "click"}    
+      ],
+      "loop": null
+    }
+  },
+
+  {
+    "url": "https://www.tinkoff.ru/",
+    "delay": 0,
+    "attempt": 0,
+    "queue": {
+      "main": [
+        {"selector": "._34EKa", "action": "click"},
+        {"selector": ".js-auth-login", "action": "wait", "delay": 500},        
+        {"selector": ".js-auth-login", "action": "type"},  
+        {"selector": ".pw5ce", "action": "click"},
+        {"selector": ".ui-auth__confirmation-actions > span:nth-child(1) > a:nth-child(1) > span:nth-child(1)", "action": "click"}    
+      ],
+      "loop": null
+    }
+  },
+
+  {
+    "url": "https://ipizza.ru/",
+    "delay": 0,
+    "attempt": 0,
+    "queue": {
+      "main": [
+        {"selector": "body > div:nth-child(1) > header > div.head-basket.text-right > div.useraction.text-center > a:nth-child(2)", "action": "click"},
+        {"selector": "#edit-phone", "action": "type"},
+        {"selector": "#sendOrder", "action": "click"}
+      ],
+      "loop": null
+    }
+  }, 
+
+  {
+    "url": "https://msk.taxovichkof.ru/",
+    "delay": 0,
+    "attempt": 0,
+    "queue": {
+      "main": [
+        {"selector": "body > div.page-wrap > div.header > div.header-row-top > div > div > div.right > div.header__buttons > div > div > div > a", "action": "click"},
+        {"selector": "#users-username", "action": "click"},
+        {"selector": "#users-username", "action": "type", "delay": 50},
+        {"selector": "#get_pass_by_sms", "action": "click"}
+      ],
+      "loop": null
+    }
+  },
+
+  {
+    "url": "https://www.drom.ru/",
+    "delay": 0,
+    "attempt": 0,
+    "queue": {
+      "main": [
+        {"selector": "body > div.b-wrapper > div.b-content.b-media-cont.b-media-cont_margin_huge > div.b-right-side > div.b-auth > a:nth-child(3)", "action": "click"},
+        {"selector": "#signForm > form > table > tbody > tr > td > div > div.controlBody > div.skinRadio > div:nth-child(2) > label", "action": "click"},
+        {"selector": "#sign", "action": "type"},
+        {"selector": "#signbutton", "action": "click"}
+      ],
+      "loop": null
+    }
+  },
+
+  {
+    "url": "https://www.avito.ru/moskva",
+    "delay": 0,
+    "attempt": 0,
+    "queue": {
+      "main": [
+        {"selector": "body > div.js-single-page.single-page > div.index-header-2qEhu.index-stickyHeader-2gJGM > div:nth-child(1) > div > div > div.header-services-menu-1FqDG > div.header-services-menu-item_username-PkxRh > a", "action": "click"},
+        {"selector": "body > div:nth-child(48) > div > div > div > div > span > div > div.auth-app-registration-block-1Di3U > span > a > span", "action": "click"},
+        {"selector": "body > div:nth-child(48) > div > div > div > div > span > div > div.common-styles-container-3bzb2 > form > div:nth-child(3) > div > div > div > label > input", "action": "type"},
+        {"selector": "body > div:nth-child(48) > div > div > div > div > span > div > div.common-styles-container-3bzb2 > form > div:nth-child(5) > div > div > div > div > button", "action": "click"}
+      ],
+      "loop": null
+    }
+  },
+
+  {
+    "url": "https://fix-price.ru/auth/register.php",
+    "delay": 0,
+    "attempt": 0,
+    "queue": {
+      "main": [
+        {"selector": "#reg-form-1 > fieldset:nth-child(5) > div > div > div.js-phone-nocard.form-group > input.form-control.form-control--sm.js-phone-num", "action": "click"},
+        {"selector": "#reg-form-1 > fieldset:nth-child(5) > div > div > div.js-phone-nocard.form-group > input.form-control.form-control--sm.js-phone-num", "action": "type", "delay": 50},
+        {"selector": "#phone-code-btn-send", "action": "click"}
+      ],
+      "loop": null
+    }
+  },
+
+  {
+    "url": "https://5ka.ru/",
+    "delay": 0,
+    "attempt": 0,
+    "queue": {
+      "main": [
+        {"selector": "#js-header-sticky > div.header-wrapper > div > div > div.header__right-part.header__col_full-h > div:nth-child(1) > div > a > span", "action": "click"},
+        {"selector": "#page-wrapper > div.content.container > section > section > ng-view > div > ng-include > div > div.new-login_over > div.form > div:nth-child(3) > form > ul > li.form__item.form__item_indent_left.form__item_btns-block > div.form__field-link > a", "action": "click"},
+        {"selector": "#forgotPhone", "action": "type"},
+        {"selector": "#page-wrapper > div.content.container > section > section > ng-view > div > div > ng-include > div > form > ul > li.form__item.form__item_indent_left > div > button", "action": "click"}
+      ],
+      "loop": null
+    }
+  }
+]
